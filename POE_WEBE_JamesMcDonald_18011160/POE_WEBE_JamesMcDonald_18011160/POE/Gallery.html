@@ -1,0 +1,84 @@
+<html>
+    <head>
+<style>
+.mySlides {display:none;}
+.column {
+  float: left;
+  height: 130%;
+}
+.left, .right {
+  width: 25%;
+}
+.middle {
+  width: 50%;
+}
+</style>
+        <title>Tears</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body bgcolor="#469062">
+    <!--linking the styles to the page-->
+<link href ="styles.css" rel="stylesheet" type="text/css">
+	<div class="header">
+	<center><h1>Tears Animal Rescue</h1></center>
+	</div>
+	<!-- navagating bar-->
+		<ul>
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="AboutUs.html">About us</a></li>
+		<li><a href="OurWork.html">Our Work</a></li>
+		<li><a href="Gallery.html">Gallery</a></li>
+		<li><a href="GetInvolved.html">Get Involved</a></li>
+		<li><a href="Contact.html">Contact Us</a></li>
+	</ul>
+          <div class="column left" style="background-color:#469062;">
+    <p><img src="tears logo.jpg" width = "348px"></p>
+  </div>
+           <div class="column middle" style="background-color:#bbb;">
+
+        <center><h1>Our Photos</h1></center>
+    <center>
+    <img class="mySlides" src="53671907_2093906383980106_5016326075773353984_o.jpg" width="600" height="345">
+
+   <img class="mySlides" src="52584292_2071538089550269_4308661339661795328_o.jpg" width="600" height="345" >
+
+   <img class="mySlides" src="reach_out.jpg" width="600" height="345" >
+
+    <img class="mySlides" src="Book-Sale.png" width="600" height="345">
+
+    <img class="mySlides" src="water2_sml-copy.jpg" width="600" height="345">
+    </center>
+        	</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}</script>
+<div class="column right" style="background-color:#469062;">
+
+	<p><img src="tears logo.jpg" width = "348px"  ></p>
+	</div>
+		</P></center>
+	</body>
+        <!--footer-->
+	<div class ="footer">
+		Created by james McDonald
+
+	</div>
+
+	</body>
+        
+	
+</html>

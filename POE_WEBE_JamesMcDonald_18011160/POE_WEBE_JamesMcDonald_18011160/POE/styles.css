@@ -1,0 +1,197 @@
+/*nav bar*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #556B2F;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*hover color*/
+li a:hover {
+  background-color: black;
+}
+h1{
+   margin:5px; 
+}
+.imgwork{
+  float:right;
+  position: absolute;
+  top: 60%;
+  left: 87%;
+  transform: translate(-50%);
+  border: 10px solid grey;
+}
+.imgwork2{
+
+  width:30%;
+  height:30%;
+  top: 60%;
+  left: 63%;
+  transform: translate(-50%);
+
+}
+
+/*To make a background coulor*/
+.backgroundCO{
+	background-color: #2C6C47;
+	font-weight: bold;
+}
+
+/*To Make a  impotant header pop nice*/
+.inportantHeader{
+	background-color: #2C6C47;
+	color: white;
+	margin:5px;
+        border: 10px solid #2C6C47;
+        
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+/*home pages*/
+.bg-image {
+  /* Full height */
+  height: 80%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used for home page cutting*/
+.img2 { background-image:url("Scrolled images image 2 for home page.jpg"); }
+.img3 { background-image:url("Scrolled images image 3 for home page.jpg"); }
+.img4 { background-image:url("Scrolled images image 4 for home page.jpg"); }
+.img5 { background-image:url("Scrolled images image 5 for home page.jpg"); }
+.img6 { background-image:url("Scrolled images image 6 for home page.jpg"); }
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color:White;
+}
+.boxed {
+  border: 10px solid black;
+  background-color:black;
+  font-size:60;
+}
+
+p {
+  margin: 20px 5px;
+}
+
+/*to creat side by side on page about us*/
+.img-container {
+  float: left;
+  width: 32.62%;
+  padding: 5px;
+  background-color: grey
+}
+
+/*to creat side by side on page about us*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+/* to give the headers and footers detail and look nice*/
+.header{
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  text-align: center;
+
+}
+.footer{
+  background-color: grey;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  float:0;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*form styling*/
+input[type=submit]:hover {
+  background-color: grey;
+}
+input[type=reset]:hover {
+  background-color: grey;
+}
+input[type=text], select, textarea {
+  width: 20%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=number], select, textarea {
+  width: 20%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60%;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
